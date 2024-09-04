@@ -1,0 +1,29 @@
+{
+  "name": "alibabacloud/credentials-api",
+  "description": "Alibaba Cloud Credentials API Library",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Alibaba Cloud SDK",
+      "email": "sdk-team@alibabacloud.com"
+    }
+  ],
+  "require": {
+    "php": ">5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alibabacloud\\CredentialsAPI\\": "src"
+    }
+  },
+  "scripts": {
+    "fixer": "php-cs-fixer fix ./"
+  },
+  "config": {
+    "sort-packages": true,
+    "preferred-install": "dist",
+    "optimize-autoloader": true
+  },
+  "prefer-stable": true
+}

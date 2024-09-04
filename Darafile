@@ -1,0 +1,61 @@
+{
+  "scope": "alibabacloud",
+  "name": "CredentialsAPI",
+  "version": "0.0.1",
+  "main": "./main.dara",
+  "interface": true,
+  "maintainers": [
+    {
+      "name": "Alibaba Cloud SDK",
+      "email": "sdk-team@alibabacloud.com"
+    }
+  ],
+  "releases": {
+    "java": "com.aliyun:credentials-api:1.0.0",
+    "php": "alibabacloud/credentials-api:^1",
+    "csharp": "AlibabaCloud.CredentialsAPI:1.0.0",
+    "go": "github.com/alibabacloud-go/credentials-api/client:v1.0.0",
+    "python": "alibabacloud-credentials-api:1.0.0",
+    "ts": "@alicloud/credentials-api:^1.0.0"
+  },
+  "java": {
+    "package": "com.aliyun.credentials.api",
+    "className": "ICredentialsProvider"
+  },
+  "php": {
+    "package": "Alibabacloud.CredentialsAPI",
+    "packageInfo": {
+      "name": "alibabacloud/credentials-api",
+      "desc": "Alibaba Cloud Credentials API Library",
+      "github": "https://github.com/aliyun/credentials-api"
+    }
+  },
+  "csharp": {
+    "namespace": "AlibabaCloud.CredentialsAPI",
+    "packageInfo": {
+      "description": "Alibaba Cloud Credentials API Library for .NET",
+      "company": "Alibaba Cloud",
+      "property": {
+        "PackageTags": "Alibaba Aliyun Credentials API",
+        "Copyright": "©2009-present Alibaba Cloud",
+        "PackageProjectUrl": "https://github.com/aliyun/credentials-api",
+        "PackageIconUrl": "https://www.alibabacloud.com/favicon.ico"
+      }
+    }
+  },
+  "go": {
+    "interface": true,
+    "clientName": "ICredentialsProvider"
+  },
+  "python": {
+    "package": "alibabacloud_credentials_api",
+    "clientName": "client",
+    "packageInfo": {
+      "name": "alibabacloud-credentials-api",
+      "desc": "Alibaba Cloud Gateway SPI SDK Library for Python",
+      "github": "https://github.com/aliyun/alibabacloud-gateway",
+      "author": "Alibaba Cloud SDK",
+      "email": "sdk-team@alibabacloud.com"
+    }
+  }
+}

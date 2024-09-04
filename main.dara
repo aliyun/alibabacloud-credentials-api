@@ -1,0 +1,12 @@
+init()
+
+model ICredentials = {
+  accessKeyId?: string,
+  accessKeySecret?: string,
+  securityToken?: string,
+  providerName?: string,
+}
+
+async function getCredentials(): ICredentials
+
+function getProviderName(): string
