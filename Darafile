@@ -1,7 +1,7 @@
 {
   "scope": "alibabacloud",
   "name": "CredentialsAPI",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./main.dara",
   "interface": true,
   "maintainers": [
@@ -15,7 +15,7 @@
     "php": "alibabacloud/credentials-api:^1",
     "csharp": "AlibabaCloud.CredentialsAPI:1.0.0",
     "go": "github.com/alibabacloud-go/credentials-api/client:v1.0.0",
-    "python": "alibabacloud-credentials-api:1.0.0",
+    "python": "alibabacloud-credentials-api:1.0.1",
     "ts": "@alicloud/credentials-api:^1.0.0"
   },
   "java": {
