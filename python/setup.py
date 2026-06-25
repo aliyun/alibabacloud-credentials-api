@@ -30,7 +30,7 @@ Created on 31/10/2024
 """
 
 PACKAGE = "alibabacloud_credentials_api"
-NAME = "alibabacloud-credentials-api"
+NAME = "alibabacloud_credentials_api"
 DESCRIPTION = "Alibaba Cloud Gateway SPI SDK Library for Python"
 AUTHOR = "Alibaba Cloud SDK"
 AUTHOR_EMAIL = "sdk-team@alibabacloud.com"
